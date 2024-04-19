@@ -22,6 +22,12 @@ body {
   border: none;
   color: white;
 }
+*,
+:after,
+:before {
+  box-sizing: content-box;
+  border: 0 solid #e5e7eb;
+}
 
 .bg {
   background-image: radial-gradient(#e32e2e33 1px, #00091d 1px);
